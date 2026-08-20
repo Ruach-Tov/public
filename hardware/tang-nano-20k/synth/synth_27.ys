@@ -1,0 +1,3 @@
+read_verilog /tmp/tang-nano-build/fmax_27mhz.v
+read_verilog /tmp/tang-nano-build/sorting_network_n16.v
+synth_gowin -top fmax_27mhz -json /tmp/tang-nano-build/test27.json

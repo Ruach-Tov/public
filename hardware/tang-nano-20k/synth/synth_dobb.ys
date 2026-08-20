@@ -1,0 +1,4 @@
+read_verilog /tmp/tang-nano-build/top_sort_dobb.v
+read_verilog /tmp/tang-nano-build/dobbelaere_n16.v
+synth_gowin -top top_sort_dobb -json /tmp/tang-nano-build/top_sort_dobb.json
+stat

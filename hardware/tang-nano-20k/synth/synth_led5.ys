@@ -1,0 +1,2 @@
+read_verilog /tmp/tang-nano-build/led5_only.v
+synth_gowin -top led5_only -json /tmp/tang-nano-build/led5.json

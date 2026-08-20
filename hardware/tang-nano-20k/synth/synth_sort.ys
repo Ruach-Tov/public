@@ -1,0 +1,4 @@
+read_verilog /tmp/tang-nano-build/top_sort.v
+read_verilog /tmp/tang-nano-build/sorting_network_n16.v
+synth_gowin -top top_sort -json /tmp/tang-nano-build/top_sort.json
+stat

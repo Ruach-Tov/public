@@ -1,0 +1,5 @@
+read_verilog /tmp/tang-nano-build/fmax_single.v
+read_verilog /tmp/tang-nano-build/sorting_network_n16.v
+read_verilog /tmp/tang-nano-build/dobbelaere_n16.v
+chparam -set FBDIV 19 -set USE_DOBB 1 fmax_single
+synth_gowin -top fmax_single -json /tmp/tang-nano-build/dobb_solo.json

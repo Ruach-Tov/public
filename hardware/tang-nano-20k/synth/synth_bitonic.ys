@@ -1,0 +1,4 @@
+read_verilog /tmp/tang-nano-build/top_sort_bitonic.v
+read_verilog /tmp/tang-nano-build/bitonic_sort_n16.v
+synth_gowin -top top_sort_bitonic -json /tmp/tang-nano-build/top_sort_bitonic.json
+stat

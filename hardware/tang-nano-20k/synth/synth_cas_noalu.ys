@@ -1,0 +1,2 @@
+read_verilog /tmp/tang-nano-build/diag_cas.v
+synth_gowin -top diag_cas -noalu -json /tmp/tang-nano-build/diag_cas.json

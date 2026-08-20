@@ -1,0 +1,7 @@
+read_verilog /tmp/single_cas_w4.v
+hierarchy -top single_cas
+proc; opt
+synth -lut 4
+opt
+write_json /tmp/cas_w4.json
+stat

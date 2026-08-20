@@ -1,0 +1,4 @@
+read_verilog /tmp/single_cas_w4.v
+synth_gowin -top single_cas
+write_verilog -noattr /tmp/cas_gowin_w4_netlist.v
+stat

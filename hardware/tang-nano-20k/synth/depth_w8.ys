@@ -1,0 +1,4 @@
+read_verilog /tmp/single_cas_w8.v
+hierarchy -top single_cas
+proc; opt; synth -lut 4
+ltp -noff

@@ -1,0 +1,3 @@
+read_verilog /tmp/single_cas_w4.v
+synth_gowin -top single_cas -noalu
+stat

@@ -1,0 +1,5 @@
+read_verilog /tmp/tang-nano-build/fmax_test.v
+read_verilog /tmp/tang-nano-build/sorting_network_n16.v  
+read_verilog /tmp/tang-nano-build/dobbelaere_n16.v
+chparam -set FBDIV 5 fmax_test
+synth_gowin -top fmax_test -json /tmp/tang-nano-build/fmax_81.json

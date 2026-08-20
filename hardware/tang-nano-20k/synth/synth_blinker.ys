@@ -1,0 +1,2 @@
+read_verilog /tmp/tang-nano-build/blinker.v
+synth_gowin -top blinker -json /tmp/tang-nano-build/blinker.json

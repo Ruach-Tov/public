@@ -1,0 +1,2 @@
+read_verilog /tmp/tang-nano-build/ff_test.v
+synth_gowin -top ff_test -json /tmp/tang-nano-build/ff_test.json

@@ -1,0 +1,4 @@
+read_verilog /tmp/tang-nano-build/wht_experiment.v
+read_verilog /tmp/tang-nano-build/sorting_network_n16.v
+synth_gowin -top wht_experiment -json /tmp/tang-nano-build/wht.json
+stat

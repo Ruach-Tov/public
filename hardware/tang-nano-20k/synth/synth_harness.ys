@@ -1,0 +1,6 @@
+read_verilog /tmp/tang-nano-build/fmax_harness.v
+read_verilog /tmp/tang-nano-build/sorting_network_n16.v
+read_verilog /tmp/tang-nano-build/dobbelaere_n16.v
+read_verilog /tmp/tang-nano-build/bitonic_sort_n16.v
+chparam -set FBDIV 21 -set IDIV 0 -set ODIV 2 -set USE_NETWORK 1 fmax_harness
+synth_gowin -top fmax_harness -json /tmp/tang-nano-build/Dobb_594.0MHz.json

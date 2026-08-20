@@ -1,0 +1,19 @@
+[tasks]
+bmc
+
+[options]
+bmc: mode bmc
+bmc: depth 15
+
+[engines]
+bmc: smtbmc z3
+
+[script]
+read -formal formal_sorting_network_n16.v
+read -formal sorting_network_n16.v
+hierarchy -top formal_sorting_network_n16 -chparam W 2
+prep -top formal_sorting_network_n16
+
+[files]
+formal_sorting_network_n16.v
+sorting_network_n16.v

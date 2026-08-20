@@ -1,0 +1,4 @@
+read_verilog sorting_network_n16.v
+hierarchy -top sorting_network_n16 -chparam W 16
+synth_gowin -top sorting_network_n16 -json sorting_network_n16_w16.json
+stat

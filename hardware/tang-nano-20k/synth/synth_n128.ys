@@ -1,0 +1,3 @@
+read_verilog /tmp/tang-nano-build/sorting_network_n128.v
+read_verilog /tmp/tang-nano-build/top_n128_test.v
+synth_gowin -top top_n128_test -json /tmp/tang-nano-build/top_n128_test.json

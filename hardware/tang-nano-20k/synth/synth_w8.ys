@@ -1,0 +1,3 @@
+read_verilog sorting_network_n16.v
+hierarchy -top sorting_network_n16 -chparam W 8
+proc; opt; synth -lut 4; stat
